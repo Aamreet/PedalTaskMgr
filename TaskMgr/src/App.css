@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Animations */
+
+@keyframes moveUp {
+     0%{
+         transform: translateY(0);
+     }
+     25%{
+       transform: translateY(5px);
+     }
+     50%{
+      transform: translateY(-5px);
+     }
+     75%{
+      transform: translateY(-5px);
+     }
+     100%{
+      transform: translateY(0);
+     }
+}
+
+
+/* utilities */
+
+.container{
+  background-color: teal;
+  margin-top: 10px;
+  width: 90vw;
+  margin-inline: auto;
+  padding: 5px;
+}
+
+.body{
+  background-color: rgba(14, 247, 247, 0.482);
+}
+
+
+/* Header */
+
+.d1{
+  display: inline-block;
+  color: pink;
+  /* animation: moveUp 2s ease-in-out infinite; */
+  /* animation-fill-mode: forwards; */
+}
+
+.d2 {
+  display: inline-block;
+  color: red;
+  /* animation: moveUp 2s ease-in-out infinite reverse; */
+}
+
+.table-screen table, th, td {
+  border:1px solid white;
+}
