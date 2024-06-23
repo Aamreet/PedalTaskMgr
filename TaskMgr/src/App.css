@@ -55,6 +55,6 @@
   /* animation: moveUp 2s ease-in-out infinite reverse; */
 }
 
-.table-screen table, th, td {
-  border:1px solid white;
+.dnone{
+   display: none;
 }
